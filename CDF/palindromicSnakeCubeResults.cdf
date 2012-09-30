@@ -50,15 +50,15 @@ Cell[BoxData[
        Part[$CellContext`resultsPalind, $CellContext`nbSol$$, \
 $CellContext`nbS$$]], 1}}, Typeset`size$$ = Automatic, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`nbS$119881$$ = 0, $CellContext`nbSol$119882$$ = 
-    0, $CellContext`k$119883$$ = 0}, 
+    False, $CellContext`nbS$129144$$ = 0, $CellContext`nbSol$129145$$ = 
+    0, $CellContext`k$129146$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`k$$ = 1, $CellContext`nbS$$ = 
         5, $CellContext`nbSol$$ = 7}, "ControllerVariables" :> {
-        Hold[$CellContext`nbS$$, $CellContext`nbS$119881$$, 0], 
-        Hold[$CellContext`nbSol$$, $CellContext`nbSol$119882$$, 0], 
-        Hold[$CellContext`k$$, $CellContext`k$119883$$, 0]}, 
+        Hold[$CellContext`nbS$$, $CellContext`nbS$129144$$, 0], 
+        Hold[$CellContext`nbSol$$, $CellContext`nbSol$129145$$, 0], 
+        Hold[$CellContext`k$$, $CellContext`k$129146$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -118,9 +118,9 @@ cubes for this combination of 'Number of S' and 'Number of Solutions'", 14,
           Part[$CellContext`resultsPalind, $CellContext`nbSol$$, \
 $CellContext`nbS$$]], 1, Appearance -> "Labeled"}}, 
       "Options" :> {
-       ControlPlacement -> Top, ContentSize -> {850, 850}, 
+       ControlPlacement -> Top, ContentSize -> {925, 850}, 
         SynchronousInitialization -> False}, "DefaultOptions" :> {}],
-     ImageSizeCache->{864., {500., 506.}},
+     ImageSizeCache->{939., {500., 506.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -275,4 +275,4 @@ Cell[1272, 31, 9739, 213, 1008, InheritFromParent]
 *)
 
 (* End of internal cache information *)
-(* NotebookSignature AwD8Ypkee6CqqDgPF5EGLYeb *)
+(* NotebookSignature HxpyHJJuMH5ZvCgtrLT0dIen *)

@@ -50,15 +50,15 @@ Cell[BoxData[
        Part[$CellContext`results, $CellContext`nbSol$$, $CellContext`nbS$$]], 
       1}}, Typeset`size$$ = Automatic, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = 
-    False, $CellContext`nbS$123422$$ = 0, $CellContext`nbSol$123423$$ = 
-    0, $CellContext`k$123424$$ = 0}, 
+    False, $CellContext`nbS$130356$$ = 0, $CellContext`nbSol$130357$$ = 
+    0, $CellContext`k$130358$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`k$$ = 1, $CellContext`nbS$$ = 
         5, $CellContext`nbSol$$ = 7}, "ControllerVariables" :> {
-        Hold[$CellContext`nbS$$, $CellContext`nbS$123422$$, 0], 
-        Hold[$CellContext`nbSol$$, $CellContext`nbSol$123423$$, 0], 
-        Hold[$CellContext`k$$, $CellContext`k$123424$$, 0]}, 
+        Hold[$CellContext`nbS$$, $CellContext`nbS$130356$$, 0], 
+        Hold[$CellContext`nbSol$$, $CellContext`nbSol$130357$$, 0], 
+        Hold[$CellContext`k$$, $CellContext`k$130358$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -271,4 +271,4 @@ Cell[1260, 31, 9611, 209, 1008, InheritFromParent]
 *)
 
 (* End of internal cache information *)
-(* NotebookSignature 8xpU#6lJGOBHRBKqz1UlpuXS *)
+(* NotebookSignature @vpGfRRN8JLnbBwBbLNwU4ZM *)

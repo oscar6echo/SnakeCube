@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     31160,        734]
-NotebookOptionsPosition[     30436,        705]
-NotebookOutlinePosition[     30870,        723]
-CellTagsIndexPosition[     30827,        720]
+NotebookDataLength[     31216,        735]
+NotebookOptionsPosition[     30492,        706]
+NotebookOutlinePosition[     30926,        724]
+CellTagsIndexPosition[     30883,        721]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -652,15 +652,16 @@ Cell[BoxData[{
   RowBox[{"NotebookClose", "[", "nbToExportAsCDF", "]"}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"Export", "[", 
-   RowBox[{
-    RowBox[{"FileNameJoin", "[", 
-     RowBox[{"{", 
-      RowBox[{"repoDir", ",", "\"\<CDF-Preview\>\"", ",", 
-       RowBox[{"name", "<>", "\"\<.png\>\""}]}], "}"}], "]"}], ",", 
-    "manipulateOutput", ",", "\"\<PNG\>\""}], "]"}], 
-  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"(*", 
+  RowBox[{
+   RowBox[{"Export", "[", 
+    RowBox[{
+     RowBox[{"FileNameJoin", "[", 
+      RowBox[{"{", 
+       RowBox[{"repoDir", ",", "\"\<CDF-Preview\>\"", ",", 
+        RowBox[{"name", "<>", "\"\<.png\>\""}]}], "}"}], "]"}], ",", 
+     "manipulateOutput", ",", "\"\<PNG\>\""}], "]"}], ";"}], 
+  "*)"}], "\[IndentingNewLine]", 
  RowBox[{}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"SetOptions", "[", 
@@ -700,11 +701,11 @@ Cell[BoxData[{
    3.556046993185913*^9}, {3.556124826289145*^9, 3.556124838697691*^9}, {
    3.557950063963819*^9, 3.557950082340334*^9}, {3.557950115156514*^9, 
    3.557950123084507*^9}, {3.557951345422618*^9, 3.557951347534349*^9}, 
-   3.5579520707660847`*^9}]
+   3.5579520707660847`*^9, 3.5579552969115467`*^9}]
 }, Open  ]]
 },
 WindowSize->{1178, 1161},
-WindowMargins->{{Automatic, 412}, {71, Automatic}},
+WindowMargins->{{Automatic, 425}, {Automatic, 56}},
 PrivateNotebookOptions->{"FileOutlineCache"->False},
 CellContext->Notebook,
 FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (October 5, \
@@ -734,7 +735,7 @@ Cell[CellGroupData[{
 Cell[25523, 584, 569, 8, 70, "Subsection"],
 Cell[26095, 594, 1063, 26, 70, "Input"],
 Cell[27161, 622, 163, 4, 70, "Input"],
-Cell[27327, 628, 3093, 74, 70, "Input"]
+Cell[27327, 628, 3149, 75, 70, "Input"]
 }, Open  ]]
 }
 ]

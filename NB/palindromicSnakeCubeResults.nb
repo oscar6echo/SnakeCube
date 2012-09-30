@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     31113,        731]
-NotebookOptionsPosition[     30389,        702]
-NotebookOutlinePosition[     30823,        720]
-CellTagsIndexPosition[     30780,        717]
+NotebookDataLength[     31271,        735]
+NotebookOptionsPosition[     30547,        706]
+NotebookOutlinePosition[     30981,        724]
+CellTagsIndexPosition[     30938,        721]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -176,7 +176,7 @@ snake cubes for this combination of 'Number of S' and 'Number of Solutions'\>\
     "\[IndentingNewLine]", 
     RowBox[{"ContentSize", "\[Rule]", 
      RowBox[{"{", 
-      RowBox[{"850", ",", "850"}], "}"}]}], ",", "\[IndentingNewLine]", 
+      RowBox[{"925", ",", "850"}], "}"}]}], ",", "\[IndentingNewLine]", 
     RowBox[{"SynchronousInitialization", "\[Rule]", "False"}], ",", 
     "\[IndentingNewLine]", "\[IndentingNewLine]", 
     RowBox[{"Initialization", "\[RuleDelayed]", 
@@ -528,7 +528,9 @@ basePathsLVPalind.csv\>\"", "]"}], ",", "2"}], "]"}]}], ";",
    3.5579499700158777`*^9, 3.557949974715439*^9}, 3.557950152504562*^9, 
    3.557950270990284*^9, {3.557950392291006*^9, 3.557950393553179*^9}, {
    3.557950547625537*^9, 3.557950660708008*^9}, {3.557951094854919*^9, 
-   3.5579511056455393`*^9}, {3.557951208383762*^9, 3.557951209236473*^9}}]
+   3.5579511056455393`*^9}, {3.557951208383762*^9, 3.557951209236473*^9}, {
+   3.557954965927247*^9, 3.557954966560565*^9}, {3.557955004479686*^9, 
+   3.557955008329638*^9}}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -650,15 +652,16 @@ Cell[BoxData[{
   RowBox[{"NotebookClose", "[", "nbToExportAsCDF", "]"}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"Export", "[", 
-   RowBox[{
-    RowBox[{"FileNameJoin", "[", 
-     RowBox[{"{", 
-      RowBox[{"repoDir", ",", "\"\<CDF-Preview\>\"", ",", 
-       RowBox[{"name", "<>", "\"\<.png\>\""}]}], "}"}], "]"}], ",", 
-    "manipulateOutput", ",", "\"\<PNG\>\""}], "]"}], 
-  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"(*", 
+  RowBox[{
+   RowBox[{"Export", "[", 
+    RowBox[{
+     RowBox[{"FileNameJoin", "[", 
+      RowBox[{"{", 
+       RowBox[{"repoDir", ",", "\"\<CDF-Preview\>\"", ",", 
+        RowBox[{"name", "<>", "\"\<.png\>\""}]}], "}"}], "]"}], ",", 
+     "manipulateOutput", ",", "\"\<PNG\>\""}], "]"}], ";"}], 
+  "*)"}], "\[IndentingNewLine]", 
  RowBox[{}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"SetOptions", "[", 
@@ -697,7 +700,8 @@ Cell[BoxData[{
    3.556042949423079*^9}, 3.556044098498137*^9, {3.556046993044366*^9, 
    3.556046993185913*^9}, {3.556124826289145*^9, 3.556124838697691*^9}, {
    3.557950063963819*^9, 3.557950082340334*^9}, {3.557950115156514*^9, 
-   3.557950123084507*^9}, {3.557951345422618*^9, 3.557951347534349*^9}}]
+   3.557950123084507*^9}, {3.557951345422618*^9, 3.557951347534349*^9}, 
+   3.557955060821474*^9}]
 }, Open  ]]
 },
 WindowSize->{1178, 1161},
@@ -721,17 +725,17 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[579, 22, 302, 5, 70, "Subsection"],
-Cell[884, 29, 22205, 501, 70, "Input"]
+Cell[884, 29, 22305, 503, 70, "Input"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[23126, 535, 433, 7, 70, "Subsection"],
-Cell[23562, 544, 1894, 33, 70, "Input"]
+Cell[23226, 537, 433, 7, 70, "Subsection"],
+Cell[23662, 546, 1894, 33, 70, "Input"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[25493, 582, 569, 8, 70, "Subsection"],
-Cell[26065, 592, 1063, 26, 70, "Input"],
-Cell[27131, 620, 163, 4, 70, "Input"],
-Cell[27297, 626, 3076, 73, 70, "Input"]
+Cell[25593, 584, 569, 8, 70, "Subsection"],
+Cell[26165, 594, 1063, 26, 70, "Input"],
+Cell[27231, 622, 163, 4, 70, "Input"],
+Cell[27397, 628, 3134, 75, 70, "Input"]
 }, Open  ]]
 }
 ]
